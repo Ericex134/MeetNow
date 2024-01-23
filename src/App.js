@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Header from "./components/header";
 
 function App() {
   return (
     <div className="flex justify-center items-center">
-      <div className="text-6xl font-bold">MeetNow</div>
+      <Header />
     </div>
   );
 }
